@@ -1,5 +1,10 @@
-function App() {
-  return <h1>Olá</h1>;
-}
+import { Button } from "./components/ui/button";
 
-export default App;
+export default function App() {
+  return (
+    <>
+      <h1>Oi Amor!</h1>
+      <Button onClick={() => alert("Casa comigo?")}>Tem Amo ❤️</Button>
+    </>
+  );
+}
